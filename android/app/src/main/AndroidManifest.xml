@@ -1,4 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<user-permission android:name = "android.permission.INTERNET"/>
+<user-permission android:name = "android.permission.ACCESS_NETWORK_STATE"/>
+<user-permission android:name = "android.permission.CAMERA"/>
+<user-permission android:name = "android.permission.READ_EXTERNAL_STORAGE"/>
+<user-permission android:name = "android.permission.WRITE_EXTERNAL_STORAGE"/>
     <application
         android:label="sprints_image_picker"
         android:name="${applicationName}"
